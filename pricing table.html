@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table </title>
+    <style>
+        body{font-family:"sono",sans-serif ;}
+        .pricing-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 2rem;
+        }
+        .pricing-plan {
+      flex: 1;
+      max-width: 400px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .plan-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .plan-price {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .plan-features li {
+      margin-bottom: 20px;
+    }
+
+    .plan-button {
+      padding: 10px;
+      background-color: #ff6600;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+    }
+
+    @media (max-width: 1250px) {
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+    }
+   
+    </style>
+</head>
+<body>
+    <div class="pricing-container">
+        <div class="Pricing-plan">
+            <div class="plan-titel">basic</div>
+            <div class="plan-price">$9.99/month </div>
+            <div>₹83.72 indain rupee/dollar </div>
+            <ul class="plan-feature">
+            <li> ✅ 10GB Storage</li>
+            <li>✅ 1 user</li>
+            <li>🚫 Support</li>
+            <li>✅valid for 3 months</li>
+        </ul>
+        <button class="paln-button">sign up</button>
+        <button>sumbit form  </button>
+        </div>
+        <div class="Pricing-plan">
+            <div class="plan-price">standard</div>
+            <div class="plan-price">$19.99/month</div>
+            <div>₹83.72 indain rupee/dollar</div>
+            <ul class="plan-feature">
+                <li>✅ 50GB Storage</li>
+                <li>✅ 5 Users</li>
+                <li>✅ Phone & Email Support</li>
+                <li>✅valid for 1 year</li>
+            </ul>
+            <button class="paln-button">sign-up</button>
+            <button>sumbit form </button>
+        </div>
+        <div class="Pricing-plan">
+            <div class="plan-titel">premium</div>
+            <div class="plan-price">$49.99/month</div>
+            <div>₹83.72 indain rupee/dollar</div>
+            <ul class="plan-feature">
+                <li>✅ 100GB Storage</li>
+                <li>✅ 10 Users</li>
+                <li>✅ 24/7 Support</li>
+                <li>✅life time access</li>
+            </ul>
+            <button class="paln-button">sign-up</button>
+            <button>sumbit form </button>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
